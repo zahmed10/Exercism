@@ -3,19 +3,22 @@ import java.time.LocalDateTime;
 import java.time.Month;
 
 public class Gigasecond {
-    private LocalDate time;
-    private LocalDateTime tempTime;
+    // private LocalDate time;
+    // private LocalDateTime tempTime;
     private LocalDateTime dateTime;
 
     public Gigasecond(LocalDate moment) {
-        time = moment;
-        System.out.println(moment);
+        this.dateTime = moment.atStartOfDay();
+        this.dateTime = this.dateTime.plusSeconds(1000000000);
+        // time = moment;
+        // System.out.println(moment);
         
     }
 
     public Gigasecond(LocalDateTime moment) {
-        tempTime = time.atStartOfDay();
-        dateTime = tempTime.plusSeconds(1000000000);
+        this.dateTime = moment.plusSeconds(1000000000);
+        // tempTime = time.atStartOfDay();
+        // dateTime = tempTime.plusSeconds(1000000000);
     }
 
     public LocalDateTime getDateTime() {
