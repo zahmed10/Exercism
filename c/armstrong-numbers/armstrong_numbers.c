@@ -1,7 +1,5 @@
 #include "armstrong_numbers.h"
 
-
-
 // count_num_digits function code from https://codeforwin.org/2016/10/c-program-to-count-number-of-digits-in-number.html
 int count_num_digits(int input)
 {
@@ -49,17 +47,17 @@ bool is_armstrong_number(int candidate)
     { // https://www.freecodecamp.org/news/the-c-beginners-handbook/#loops
         /* instructions to be repeated */
 
-        sum+=(int)str[i];
-
-
+        sum += (int)str[i];
     }
 
     bool is_armstrong;
-    if (candidate==sum){
-        is_armstrong=true;
-    } else {
-        is_armstrong=false;
-        
+    if (candidate == sum)
+    {
+        is_armstrong = true;
+    }
+    else
+    {
+        is_armstrong = false;
     }
     return is_armstrong;
 }
