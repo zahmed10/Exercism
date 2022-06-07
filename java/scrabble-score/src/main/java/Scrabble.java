@@ -10,8 +10,8 @@ class Scrabble {
     }
 
     private void calculateScore(){
+        this.word = this.word.toLowerCase();
         for (int i=0; i<this.word.length(); i++){
-            this.word = this.word.toLowerCase();
             char currentLetter=this.word.charAt(i); //figure out a way to make everything lowercase
             switch(currentLetter) {
                 case 'a':
@@ -74,6 +74,9 @@ class Scrabble {
                 case 'w':
                     this.score+=4;
                     break;
+                case 'y':
+                    this.score+=4;
+                    break;
                 case 'k':
                     this.score+=5;
                     break;
@@ -82,10 +85,9 @@ class Scrabble {
                     break;
                 case 'x':
                     this.score+=8;
-                    break;
-                    
+                    break;     
                 case 'q':
-                    this.score+=8;
+                    this.score+=10;
                     break;
                 case 'z':
                     this.score+=10;
