@@ -4,7 +4,11 @@
 #include <stdbool.h>
 #include <string.h>
 #include <stdio.h>
+#include <math.h>
 
-bool is_armstrong_number(int candidate);
+int is_armstrong_number(int candidate);
+int order(int x);
+int power(int x, unsigned int y);
+
 
 #endif
