@@ -21,6 +21,6 @@ typedef enum {
 } resistor_band_t;
 resistor_band_t colors();
 
-resistor_band_t chosenType = BLACK;
+resistor_band_t chosenType;
 
 #endif
