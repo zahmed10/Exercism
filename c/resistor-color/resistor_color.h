@@ -1,7 +1,10 @@
 #ifndef RESISTOR_COLOR_H
 #define RESISTOR_COLOR_H
 
-int color_code(resistor_band_t color);
+#include <ctype.h>
+
+int color_code(char color);
+
 
 typedef enum {
     BLACK,
@@ -16,5 +19,8 @@ typedef enum {
     WHITE
 
 } resistor_band_t;
+resistor_band_t colors();
+
+resistor_band_t chosenType = BLACK;
 
 #endif

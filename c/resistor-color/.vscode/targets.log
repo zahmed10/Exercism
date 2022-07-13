@@ -7,7 +7,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
 
-# Make data base, printed on Fri Jul  8 23:40:28 2022
+# Make data base, printed on Tue Jul 12 17:29:06 2022
 
 # Variables
 
@@ -40,13 +40,16 @@ __CFBundleIdentifier = com.microsoft.VSCode
 # environment
 VSCODE_CWD = /Users/zayd/Exercism/c/resistor-color
 # environment
+ 
+make: *** No rule to make target `all'.  Stop.
+
 PATH = /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/TeX/texbin:/Library/Apple/usr/bin:/usr/local/mysql/bin
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.yGg4PwvjHS/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.VoHg1Vi9pu/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -92,7 +95,7 @@ USER = zayd
 # default
 MAKECMDGOALS := all
 # environment
-TERM_SESSION_ID = w0t0p0:15219787-2D0B-430E-892E-F91F7E58450C
+TERM_SESSION_ID = w0t2p0:4DCABAE8-0422-47C5-A32E-B42048A8AF07
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # default
@@ -118,7 +121,7 @@ MFLAGS = -Rrqp
 # environment
 TERM_PROGRAM_VERSION = 3.4.16
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.25332035.25332041.F1B10978-4772-4ECA-8D8C-4CE10F1DD3C3
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.25332035.25332041.48461D37-BE9E-42C8-842B-65298C78CE0D
 # environment
 LC_TERMINAL_VERSION = 3.4.16
 # automatic
@@ -126,7 +129,7 @@ LC_TERMINAL_VERSION = 3.4.16
 # automatic
 +F = $(notdir $+)
 # environment
-ITERM_SESSION_ID = w0t0p0:15219787-2D0B-430E-892E-F91F7E58450C
+ITERM_SESSION_ID = w0t2p0:4DCABAE8-0422-47C5-A32E-B42048A8AF07
 # environment
 COLORFGBG = 7;0
 # environment
@@ -156,7 +159,7 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 1085
+VSCODE_PID = 771
 # variable set hash-table stats:
 # Load=73/1024=7%, Rehash=0, Collisions=4/115=3%
 
@@ -166,7 +169,7 @@ VSCODE_PID = 1085
 
 # Directories
 
-# . (device 16777220, inode 25399700): 11 files, no impossibilities.
+# . (device 16777221, inode 25399700): 11 files, no impossibilities.
 
 # 11 files, no impossibilities in 1 directories.
 
@@ -281,8 +284,6 @@ clean:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Fri Jul  8 23:40:28 2022
+# Finished Make data base on Tue Jul 12 17:29:06 2022
 
  
-make: *** No rule to make target `all'.  Stop.
-
