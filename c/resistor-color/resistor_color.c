@@ -26,26 +26,26 @@ int color_code(char color){ // figure out how to pass resistor_band_t to the fun
     return chosenType;
 }
 
-resistor_band_t colors(){
+char * colors(){
 
-    // char * colors[10] = {
-    // "BLACK",
-    // "BROWN",
-    // "RED",
-    // "ORANGE",
-    // "YELLOW",
-    // "GREEN",
-    // "BLUE",
-    // "VIOLET",
-    // "GREY",
-    // "WHITE" 
-    // };
+    char * colors[10] = {
+    "BLACK",
+    "BROWN",
+    "RED",
+    "ORANGE",
+    "YELLOW",
+    "GREEN",
+    "BLUE",
+    "VIOLET",
+    "GREY",
+    "WHITE" 
+    };
 
     // return colors;
 
-    resistor_band_t allColors = BLACK;
+    // resistor_band_t allColors = BLACK;
 
-    return allColors;
+    return * colors;
 
     
 }

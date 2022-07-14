@@ -19,7 +19,7 @@ typedef enum {
     WHITE
 
 } resistor_band_t;
-resistor_band_t colors();
+char * colors();
 
 resistor_band_t chosenType;
 
