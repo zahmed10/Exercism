@@ -22,6 +22,7 @@ int color_code(char color){ // figure out how to pass resistor_band_t to the fun
 
     char inputtedColor = color;
     inputtedColor = toupper(inputtedColor);
+    chosenType = inputtedColor;
     return chosenType;
 }
 

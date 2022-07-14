@@ -7,7 +7,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
 
-# Make data base, printed on Tue Jul 12 17:29:06 2022
+# Make data base, printed on Thu Jul 14 01:05:26 2022
 
 # Variables
 
@@ -40,16 +40,13 @@ __CFBundleIdentifier = com.microsoft.VSCode
 # environment
 VSCODE_CWD = /Users/zayd/Exercism/c/resistor-color
 # environment
- 
-make: *** No rule to make target `all'.  Stop.
-
 PATH = /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/TeX/texbin:/Library/Apple/usr/bin:/usr/local/mysql/bin
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.VoHg1Vi9pu/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.eZRHixuVyb/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -67,7 +64,7 @@ MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /De
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/zayd/Library/Application Support/Code/CachedData/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
+VSCODE_CODE_CACHE_PATH = /Users/zayd/Library/Application Support/Code/CachedData/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
 # environment
 LOGNAME = zayd
 # environment
@@ -95,7 +92,7 @@ USER = zayd
 # default
 MAKECMDGOALS := all
 # environment
-TERM_SESSION_ID = w0t2p0:4DCABAE8-0422-47C5-A32E-B42048A8AF07
+TERM_SESSION_ID = w0t0p0:08FB7AAC-7BFA-450E-A41E-46DB240F6845
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # default
@@ -109,7 +106,7 @@ TMPDIR = /var/folders/zl/8dmlgw613pj0xgp8ltshhb3m0000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/zayd/Library/Application Support/Code/1.69.0-main.sock
+VSCODE_IPC_HOOK = /Users/zayd/Library/Application Support/Code/1.69.1-main.sock
 # environment
 MallocNanoZone = 0
 # makefile
@@ -121,7 +118,7 @@ MFLAGS = -Rrqp
 # environment
 TERM_PROGRAM_VERSION = 3.4.16
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.25332035.25332041.48461D37-BE9E-42C8-842B-65298C78CE0D
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.25672313.25672319.49ACA9D3-C92E-41E6-97C9-8EFD0D5E99C8
 # environment
 LC_TERMINAL_VERSION = 3.4.16
 # automatic
@@ -129,7 +126,7 @@ LC_TERMINAL_VERSION = 3.4.16
 # automatic
 +F = $(notdir $+)
 # environment
-ITERM_SESSION_ID = w0t2p0:4DCABAE8-0422-47C5-A32E-B42048A8AF07
+ITERM_SESSION_ID = w0t0p0:08FB7AAC-7BFA-450E-A41E-46DB240F6845
 # environment
 COLORFGBG = 7;0
 # environment
@@ -159,7 +156,7 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 771
+VSCODE_PID = 649
 # variable set hash-table stats:
 # Load=73/1024=7%, Rehash=0, Collisions=4/115=3%
 
@@ -169,9 +166,9 @@ VSCODE_PID = 771
 
 # Directories
 
-# . (device 16777221, inode 25399700): 11 files, no impossibilities.
+# . (device 16777220, inode 25399700): 13 files, no impossibilities.
 
-# 11 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -284,6 +281,8 @@ clean:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Tue Jul 12 17:29:06 2022
+# Finished Make data base on Thu Jul 14 01:05:26 2022
 
  
+make: *** No rule to make target `all'.  Stop.
+
