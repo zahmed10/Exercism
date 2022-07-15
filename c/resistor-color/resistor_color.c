@@ -41,11 +41,23 @@ char * colors(){
     "WHITE" 
     };
 
-    // return colors;
+    return * colors;
 
     // resistor_band_t allColors = BLACK;
 
-    return * colors;
+    // resistor_band_t allColors[] = {
+    // BLACK,
+    // BROWN,
+    // RED,
+    // ORANGE,
+    // YELLOW,
+    // GREEN,
+    // BLUE,
+    // VIOLET,
+    // GREY,
+    // WHITE};
+
+    // return allColors;
 
     
 }
