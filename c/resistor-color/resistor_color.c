@@ -8,7 +8,7 @@ int color_code(resistor_band_t color){
 
 resistor_band_t * colors(){
 
-    resistor_band_t colors[10] = {
+    static resistor_band_t colors[10] = {
     BLACK,
     BROWN,
     RED,
@@ -21,9 +21,11 @@ resistor_band_t * colors(){
     WHITE 
     };
 
-    resistor_band_t * colorPt = &colors[0];
+    // resistor_band_t * colorPt = &colors[0];
 
-    return colorPt;
+    // return colorPt;
+
+    return colors;
 
     // resistor_band_t allColors = BLACK;
 
