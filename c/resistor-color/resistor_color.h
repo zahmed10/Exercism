@@ -3,9 +3,6 @@
 
 #include <ctype.h>
 
-int color_code(char color);
-
-
 typedef enum {
     BLACK,
     BROWN,
@@ -19,8 +16,11 @@ typedef enum {
     WHITE
 
 } resistor_band_t;
-char * colors();
 
-resistor_band_t chosenType;
+int color_code(resistor_band_t color);
+
+
+resistor_band_t * colors();
+
 
 #endif
