@@ -4,8 +4,8 @@ int color_code(resistor_band_t color){
     return color;
 }
 
-resistor_band_t * colors(){
-    static resistor_band_t colors[10] = {
+const resistor_band_t * colors(void){
+    static resistor_band_t colors[] = {
     BLACK,
     BROWN,
     RED,

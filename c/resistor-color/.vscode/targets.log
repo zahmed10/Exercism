@@ -7,7 +7,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
 
-# Make data base, printed on Fri Jul 15 11:45:15 2022
+# Make data base, printed on Sun Jul 17 12:41:56 2022
 
 # Variables
 
@@ -46,7 +46,7 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.OrdrZk7ksS/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.Jc4H00Juqn/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -92,7 +92,7 @@ USER = zayd
 # default
 MAKECMDGOALS := all
 # environment
-TERM_SESSION_ID = w0t2p0:85DB38F3-8D53-4D52-AF84-06BDC657E138
+TERM_SESSION_ID = w0t0p0:5113DE37-5CC2-4DF0-8ACC-C41C3164CA14
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # default
@@ -117,8 +117,9 @@ MFLAGS = -Rrqp
 *D = $(patsubst %/,%,$(dir $*))
 # environment
 TERM_PROGRAM_VERSION = 3.4.16
+ 
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.25672313.25672319.340FB519-5EFF-47B2-A774-C1F2FC7F62AD
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.25672313.25672319.89825B4B-345A-44D7-93CB-B4EEC590B27E
 # environment
 LC_TERMINAL_VERSION = 3.4.16
 # automatic
@@ -126,7 +127,7 @@ LC_TERMINAL_VERSION = 3.4.16
 # automatic
 +F = $(notdir $+)
 # environment
-ITERM_SESSION_ID = w0t2p0:85DB38F3-8D53-4D52-AF84-06BDC657E138
+ITERM_SESSION_ID = w0t0p0:5113DE37-5CC2-4DF0-8ACC-C41C3164CA14
 # environment
 COLORFGBG = 7;0
 # environment
@@ -156,7 +157,7 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 758
+VSCODE_PID = 723
 # variable set hash-table stats:
 # Load=73/1024=7%, Rehash=0, Collisions=4/115=3%
 
@@ -281,7 +282,7 @@ clean:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Fri Jul 15 11:45:15 2022
+# Finished Make data base on Sun Jul 17 12:41:56 2022
 
  
 make: *** No rule to make target `all'.  Stop.
