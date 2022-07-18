@@ -8,10 +8,11 @@ bool is_isogram(const char phrase[]) {
     bool isIso = 1;
     char capLtrs[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     char lowerLtrs[]="abcdefghijklmnopqrstuvwxyz";
-    int ctCap[26]; 
-    int ctLower[26];
-    
-    for (ctr=0; ctr<strlen(phrase); ctr++){
+    int ctCap[26]= {0}; 
+    int ctLower[26]={0};
+
+    if (phrase!=NULL){
+        for (ctr=0; ctr<strlen(phrase); ctr++){
         // if ((phrase[ctr]>='a' && phrase[ctr]<='z') || (phrase[ctr]>='A' && phrase[ctr]<='Z')) {
 
         // }
@@ -35,19 +36,25 @@ bool is_isogram(const char phrase[]) {
             isIso = 0;
             break;
         }
+    } 
+
+    } else {
+        isIso = 0;
     }
+    
+    
         
-    for (ctr=0; ctr<26; ctr++) {
-        printf("\nThe count at index %d is %d", ctr, ctCap[ctr]);
-    }
-    printf("\n\n");
-    for (ctr=0; ctr<26; ctr++) {
-        printf("\nThe char at index %d is %c", ctr, capLtrs[ctr]);
-    }
+    // for (ctr=0; ctr<26; ctr++) {
+    //     printf("\nThe count at index %d is %d", ctr, ctCap[ctr]);
+    // }
+    // printf("\n\n");
+    // for (ctr=0; ctr<26; ctr++) {
+    //     printf("\nThe char at index %d is %c", ctr, capLtrs[ctr]);
+    // }
     return isIso;
 }
 
-main(){
-    is_isogram("Test string");
-}
+// main(){
+//     is_isogram("Test string");
+// }
 
