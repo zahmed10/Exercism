@@ -7,20 +7,20 @@ int compute(const char *lhs, const char *rhs){
     unsigned int cnt = 0;
     if (strlen(lhs)==strlen(rhs)){
         for (cnt=0; cnt<strlen(lhs); cnt++){
-            if (rhs[cnt]==lhs[cnt]){
+            if (*(rhs+cnt)!=*(lhs+cnt)){
                 diff++;
             }
         }
     } else if(strlen(lhs)>strlen(rhs)){
         for(cnt=0; cnt<strlen(rhs); cnt++){
-            if (rhs[cnt]==lhs[cnt]){
+            if (rhs[cnt]!=lhs[cnt]){
                 diff++;
             }
         } 
         diff+=(strlen(lhs)-strlen(rhs)+ 1);
     } else {
         for(cnt=0; cnt<strlen(lhs); cnt++){
-            if (rhs[cnt]==lhs[cnt]){
+            if (rhs[cnt]!=lhs[cnt]){
                 diff++;
             }
         } 
