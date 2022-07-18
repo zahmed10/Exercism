@@ -46,19 +46,19 @@ static void test_disallow_first_strand_when_longer(void)
 
 static void test_disallow_second_strand_when_longer(void)
 {
-   TEST_IGNORE();
+   // TEST_IGNORE();
    TEST_ASSERT_EQUAL(-1, compute("ATA", "AGTG"));
 }
 
 static void test_disallow_empty_first_strand(void)
 {
-   TEST_IGNORE();
+   // TEST_IGNORE();
    TEST_ASSERT_EQUAL(-1, compute("", "G"));
 }
 
 static void test_disallow_empty_second_strand(void)
 {
-   TEST_IGNORE();
+   // TEST_IGNORE();
    TEST_ASSERT_EQUAL(-1, compute("G", ""));
 }
 
