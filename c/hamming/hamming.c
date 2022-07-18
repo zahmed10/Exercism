@@ -12,21 +12,6 @@ int compute(const char *lhs, const char *rhs){
             }
         }
     } 
-    // else if(strlen(lhs)>strlen(rhs)){
-    //     for(cnt=0; cnt<strlen(rhs); cnt++){
-    //         if (rhs[cnt]!=lhs[cnt]){
-    //             diff++;
-    //         }
-    //     } 
-    //     diff+=(strlen(lhs)-strlen(rhs)+ 1);
-    // } else {
-    //     for(cnt=0; cnt<strlen(lhs); cnt++){
-    //         if (rhs[cnt]!=lhs[cnt]){
-    //             diff++;
-    //         }
-    //     } 
-    //     diff+=(strlen(rhs)-strlen(lhs)+ 1);
-    // }
     else {
         diff = -1;
     }
