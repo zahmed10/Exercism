@@ -9,8 +9,9 @@ uint64_t square(uint8_t index) {
     if (index>=65 || index == 0){
         return 0;
     } 
-    uint64_t ans= 1ULL<<(index-1); 
-    return ans;
+    // uint64_t ans= 1ULL<<(index-1); 
+    return 1ULL<<(index-1); 
+    // return ans;
 }
 uint64_t total(void) {
     // uint64_t total = 0;
@@ -18,6 +19,6 @@ uint64_t total(void) {
     //     total+=square(power);
     // }
     // unsigned long long ulong_num = 0x1; 
-    return (square(65)) - 0x1; // https://www.geeksforgeeks.org/sum-of-the-series-20-21-22-2n/
+    return (square(65)) - 1; // https://www.geeksforgeeks.org/sum-of-the-series-20-21-22-2n/
     // return total;
 }
