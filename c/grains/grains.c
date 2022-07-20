@@ -19,6 +19,6 @@ uint64_t total(void) {
     //     total+=square(power);
     // }
     // unsigned long long ulong_num = 0x1; 
-    return (square(65)) - 1; // https://www.geeksforgeeks.org/sum-of-the-series-20-21-22-2n/
+    return (0) - 1; // https://www.geeksforgeeks.org/sum-of-the-series-20-21-22-2n/
     // return total;
 }
